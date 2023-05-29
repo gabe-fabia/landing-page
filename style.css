@@ -1,42 +1,45 @@
-/* COLORS AND FONT STYLES
-
-dark background color (hero and footer)
-#1F2937
-
-hero main text ("this website is awesome")
-48px extra-bold #F9FAF8
-
-hero secondary text, Header Link Text
-18px #E5E7EB
-
-header logo text
-24px #F9FAF8
---------
-
-button color, call to action background color
-#3882F6
-
-information header text
-36px extra-bold #1F2937
---------
-
-quote section background color
-#E5E7EB
-
-quote text
-36px light italic #1F2937
-
-*/
-
-.flex-container {
+.section_1 {
+    background: #1F2937;
+    color: white;
     display: flex;
     flex-direction: column;
 }
 
-.flex-container div {
+.header, .content {
+    display: flex;
+    padding: 48px;
+    flex: auto;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.content {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
+img, .hero {
+    height: 300px;
+    width: 600px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    flex: auto;
+}
+
+
+.links {
+    display: flex;
+    flex-grow: 0;
+    justify-content: end;
+    gap: 24px;
+}
+
+a {
     color: white;
-    background: #1F2937;
-    flex: 1 1 auto;
-    /* border: 10px solid red; */
-    height: 80px;
 }
