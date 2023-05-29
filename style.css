@@ -58,6 +58,7 @@ img {
 
 button {
     background-color: #3882F6;
+    border-color: white;
     color: white;
     font-weight: bold;
     border-radius: 25px;
@@ -140,7 +141,37 @@ a {
     font-weight: bold;
 }
 
-/* section 4 blue box width : 1200px */
+.section_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px;
+}
+
+.blue_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 25px;
+    padding: 64px;
+    width: 1200px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sign {
+    font-size: 16px;
+}
 
 .footer {
     background-color: #1F2937;
