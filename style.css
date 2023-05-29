@@ -117,7 +117,7 @@ a {
 
 .items {
     display: flex;
-    gap: 48px;
+    gap: 64px;
 }
 
 .section_3 {
@@ -141,3 +141,14 @@ a {
 }
 
 /* section 4 blue box width : 1200px */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 48px;
+    font-size: 16px;
+}
