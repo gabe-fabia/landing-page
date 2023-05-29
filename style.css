@@ -90,15 +90,13 @@ a {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 200px;
-    justify-content: center;
-    align-items: center;
+    width: 250px;
     text-align: center;
 }
 
 .box img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border: solid #3882F6;
     border-radius: 25px;
     background-color: pink;
@@ -108,7 +106,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 75px;
+    padding: 150px 300px;
     gap: 48px;
 }
 
@@ -119,8 +117,27 @@ a {
 
 .items {
     display: flex;
-    justify-content: center;
     gap: 48px;
 }
 
+.section_3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 300px;
+    justify-content: center;
+    align-items: end;
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* section 4 blue box width : 1200px */
